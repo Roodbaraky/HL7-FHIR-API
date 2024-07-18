@@ -19,3 +19,20 @@ Tests can be run manually via:
 OR
 ```npm run watch```
 To use the '--watch' flag with Vitest.
+
+## Development
+Run the development server via:
+```npm run dev```
+
+## Production
+Build for production:
+```npm run build```
+OR
+```npm run clean```
+To use the "--clean" flag with tsc.
+
+Run the transpiled build via:
+```npm run prod```
+OR
+Run dist/server.js with a process manager of your choice e.g.:
+```pm2 start dist/app.js```
